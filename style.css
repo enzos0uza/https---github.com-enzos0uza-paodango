@@ -1,5 +1,5 @@
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 img{
     height: 20%;
@@ -19,7 +19,7 @@ form {
   width: 400px;
   margin: 20px auto;
   padding: 20px;
-  border: 1px solid #cccccc;
+  border: 10px solid #fdc600;
   border-radius: 5px;
 }
 

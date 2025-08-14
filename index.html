@@ -1,10 +1,12 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pãodango</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <img src="icons/logoPãodango.png" alt="">
@@ -15,18 +17,49 @@
 
         <form>
             <fieldset>
-                <legend>Informações Pessoais</legend>
                 <label for="cliente">Cliente:</label>
                 <input type="text" id="nome" name="nome" placeholder="Seu nome">
                 <label for="pedido">Pedido:</label>
-                <input type="text" id="pedido" name="pedido" placeholder="Seu pedido">
+                <select name="" id="opções">
+                <option value="Pedidos">Selecione</option>
+                <option value="Pedidos">Pão de forma</option>
+                <option value="Pedidos">Sonho</option>
+                <option value="Pedidos">Bolo</option>
+                <option value="Pedidos">Café</option>
+                <option value="Pedidos">Torta</option>
+                <option value="Pedidos">Pão de queijo</option>
+                <option value="Pedidos">Pão francês</option>
+                <option value="Pedidos">Suco</option>
+                </select>
+                <br>
+                <br>
+                <label for="quantidade">Quantidade:</label>
+                <select name="" id="quantidade">
+                <option value="quantidade">Selecione</option>
+                <option value="quantidade">1</option>
+                <option value="quantidade">2</option>
+                <option value="quantidade">3</option>
+                <option value="quantidade">4</option>
+                <option value="quantidade">5</option>
+                <option value="quantidade">6</option>
+                <option value="quantidade">7</option>
+                <option value="quantidade">8</option>
+                <option value="quantidade">9</option>
+                <option value="quantidade">10</option>
+                <option value="quantidade">11 ou mais</option>
+                </select>
+                <br>
+                <br>
                 <button type="submit">Enviar</button>
             </fieldset>
+
         </form>
+        <br>
     </main>
 
     <footer>
 
     </footer>
 </body>
+
 </html>
