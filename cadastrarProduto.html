@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastrar Produto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <header>
+        <img src="icons/logoPãodango.png" alt="">
+    </header>
+        <div class="container">
+                <h2>Cadastro de Produto - Padaria</h2>
+                <form action="/cadastrar-produto" method="POST">
+                    <label for="nome">Nome do Produto:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="categoria">Categoria:</label>
+                    <select id="categoria" name="categoria" required>
+                        <option value="">Selecione</option>
+                        <option value="Pães">Pães</option>
+                        <option value="Bolos">Bolos</option>
+                        <option value="Doces">Doces</option>
+                        <option value="Salgados">Salgados</option>
+                        <option value="Bebidas">Bebidas</option>
+                    </select>
+
+                    <label for="preco">Preço (R$):</label>
+                    <input type="number" step="0.01" id="preco" name="preco" required>
+
+                    <label for="validade">Data de Validade:</label>
+                    <input type="date" id="validade" name="validade">
+
+                    <label for="descricao">Descrição:</label>
+                    <textarea id="descricao" name="descricao" rows="4" placeholder="Ex: Pão francês crocante, produzido diariamente..."></textarea>
+                    <br>
+                    <button type="submit">Cadastrar Produto</button>
+                </form>
+            </div>
+</body>
+</html>
